@@ -1,0 +1,61 @@
+{
+  "check_libelle": {
+    "good": "Le libellé est bien le même que celui défini dans Athena",
+    "bad": "Le libellé n'est pas le même que celui défini dans Athena"
+  },
+  "verification_xml": {
+    "good": "La donnée est celle stockée en BDD du site web",
+    "bad": "La donnée n'est pas celle stockée en BDD du site web"
+  },
+
+  "normal_pay_cb": {
+    "good": "Le paiement total en carte banquaire réagit bien",
+    "bad": "Le paiement total en carte banquaire ne réagit pas bien"
+  },
+  "normal_multiple_pay_cb": {
+    "good": "Le paiement multiple en carte banquaire réagit bien",
+    "bad": "Le paiement multiple en carte banquaire ne réagit pas bien"
+  },
+  "normal_multiple_pay_cb_and_cash": {
+    "good": "Le paiement multiple en carte banquaire puis en espèce réagit bien",
+    "bad": "Le paiement multiple en carte banquaire puis en espèce ne réagit pas bien"
+  },
+  "normal_multiple_pay_cash_and_cb": {
+    "good": "Le paiement multiple en espèce puis en carte banquaire réagit bien",
+    "bad": "Le paiement multiple en espèce puis en carte banquaire ne réagit pas bien"
+  },
+
+  "tire_and_mounting_pay_cb": {
+    "good": "Le paiement total en carte banquaire réagit bien",
+    "bad": "Le paiement total en carte banquaire ne réagit pas bien"
+  },
+  "tire_and_mounting_multiple_pay_cb": {
+    "good": "Le paiement multiple en carte banquaire réagit bien",
+    "bad": "Le paiement multiple en carte banquaire ne réagit pas bien"
+  },
+  "tire_and_mounting_multiple_pay_cb_and_cash": {
+    "good": "Le paiement multiple en carte banquaire puis en espèce réagit bien",
+    "bad": "Le paiement multiple en carte banquaire puis en espèce ne réagit pas bien"
+  },
+  "tire_and_mounting_multiple_pay_cash_and_cb": {
+    "good": "Le paiement multiple en espèce puis en carte banquaire réagit bien",
+    "bad": "Le paiement multiple en espèce puis en carte banquaire ne réagit pas bien"
+  },
+
+  "deposit_express_pay_cb": {
+    "good": "Le paiement total en carte banquaire réagit bien",
+    "bad": "Le paiement total en carte banquaire ne réagit pas bien"
+  },
+  "deposit_express_multiple_pay_cb": {
+    "good": "Le paiement multiple en carte banquaire réagit bien",
+    "bad": "Le paiement multiple en carte banquaire ne réagit pas bien"
+  },
+  "deposit_express_multiple_pay_cb_and_cash": {
+    "good": "Le paiement multiple en carte banquaire puis en espèce réagit bien",
+    "bad": "Le paiement multiple en carte banquaire puis en espèce ne réagit pas bien"
+  },
+  "deposit_express_multiple_pay_cash_and_cb": {
+    "good": "Le paiement multiple en espèce puis en carte banquaire réagit bien",
+    "bad": "Le paiement multiple en espèce puis en carte banquaire ne réagit pas bien"
+  }
+}

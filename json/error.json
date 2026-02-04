@@ -1,0 +1,19 @@
+[
+    {
+        "generic": "Le test a été interrompu",
+        "dispo_supplier": "Le fournisseur n'a pas de disponibilitée pour la commande fournisseur",
+        "error_job_supplier_order" : "Les traitements yakaedi n'ont pas fonctionné",
+        "error_job_recuptic": "Les traitements recuptic ont une erreur",
+        "error_job_traitement_rbr": "Les traitements commande rbr ont une erreur",
+        "error_job_reception_commande": "Les traitemment de reception des commandes fournisseurs dans ego tombe en erreur",
+        "error_job_traitement_shi": "Les traitements commande shi ont une erreur",
+        "error_job_traitement_epo": "Les traitements commande epo ont une erreur",
+        "error_job_preparation": "Les traitements de preparation ego ont une erreur",
+        "error_job_order_loader": "Les traitements de order loader ont une erreur",
+        "error_envoi_commandes": "Les traitements d'envoi commandes lad vers ego ont une erreur",
+        "error_yakaedi": "Les traitements d'appro yakaedi ont une erreur",
+        "empty_number_packaging":"Le zone OCR du colisage ne detecte pas de numéros",
+        "empty_supplier_number":"Le numéro fourniseur n'a pas réussit à être recupéré"
+
+    }
+]

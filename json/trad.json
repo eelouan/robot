@@ -1,0 +1,78 @@
+{
+  "task_creation_commmande": "creation_commande",
+  "seller_mode_exp": "Expédition de commande en mode vendeur",
+  "check_libelle": "Vérification des libellés ecommerce",
+  "verification_xml": "Vérification des tickets XML ecommerce",
+
+  "normal_pay_cb": "Paiement total d'un produit de base en CB",
+  "normal_multiple_pay_cb": "Paiement multiple d'un produit de base en CB",
+  "normal_multiple_pay_cb_and_cash": "Paiement multiple d'un produit de base en CB puis en espèce",
+  "normal_multiple_pay_cash_and_cb": "Paiement multiple d'un produit de base en espèce puis en CB",
+
+  "tire_and_mounting_pay_cb": "Paiement total d'un produit pneu avec son montage en CB",
+  "tire_and_mounting_multiple_pay_cb": "Paiement multiple d'un produit pneu avec son montage en CB",
+  "tire_and_mounting_multiple_pay_cb_and_cash": "Paiement multiple d'un produit pneu avec son montage en CB puis en espèce",
+  "tire_and_mounting_multiple_pay_cash_and_cb": "Paiement multiple d'un produit pneu avec son montage en espèce puis en CB",
+
+  "deposit_express_pay_cb": "Paiement total d'un produit consigné avec une livraison express en CB",
+  "deposit_express_multiple_pay_cb": "Paiement multiple d'un produit consigné avec une livraison express en CB",
+  "deposit_express_multiple_pay_cb_and_cash": "Paiement multiple d'un produit consigné avec une livraison express en CB puis en espèce",
+  "deposit_express_multiple_pay_cash_and_cb": "Paiement multiple d'un produit consigné avec une livraison express en espèce puis en CB",
+  
+  "edit_voucher_recovery_old_battery": "Editer un bon de reprise ancienne batterie",
+  "voucher_refusal_service": "Cas de refus du bon prestation",
+  "voucher_refusal_amount": "Cas de refus du bon montant",
+  "voucher_apply_split": "Application du bon répartition",
+  "voucher_refusal_open_tickets": "Cas de refus du bon cumul tickets ouverts",
+  "voucher_refusal_two_vouchers": "Cas de refus du bon cumul de 2 bons",
+  "voucher_valid_use": "Utilisation correcte du bon",
+  "voucher_refusal_already_used": "Cas de refus du bon déjà utilisé",
+  "voucher_return_discounted_article": "Retour sur article ayant bénéficié d'un bon de remise",
+
+  "client_order_create_store": "Créer une commande client magasin",
+  "client_order_deliver_store": "Livrer une commande client magasin",
+  "client_order_cancel_store": "Annuler la commande",
+  "client_order_deliver_web": "Livrer une commande client web",
+  "client_order_return_web": "Faire un retour sur une commande client web",
+  "client_order_cancel_web_delivered": "Annuler une commande client web livrée",
+
+  "client_file_edit": "Modification de fiche client",
+
+  "return_check_cash_payment_type": "Contrôler le type de moyens de paiement autorisé sur un retour Espèces",
+  "return_check_cb_payment_type": "Contrôler le type de moyens de paiement autorisé sur un retour CB",
+
+  "return_no_ticket_inaccessible": "Retour sans ticket inaccessible",
+  "return_no_ticket_available": "Retour sans ticket disponible",
+  "return_with_ticket_no_manager": "Retour avec ticket sans approbation manager",
+
+  "return_cb_and_cash": "Cumul CB et Espèces",
+
+  "reprint_invoice_same_day": "Rééditer Facture Jour J",
+  "ticket_duplicate": "Duplicata ticket",
+  "deposit_ticket_management": "Gestion des tickets sur les consignes (1 pour le comptable et 1 pour le retour)",
+
+  "order_sale_combination": "Cumul commande et vente",
+  "order_return_combination": "Cumul commande et retour",
+  "sale_return_combination": "Cumul vente et retour",
+
+  "sale_voucher_uniroyal": "Vente bon Uniroyal",
+  "display_logo_triman": "Logo Triman",
+  "display_mention_roue_deposee": "Mention \"Roue déposée\"",
+  "capency": "Capency",
+  "brb": "Bon de Retour Batterie",
+  "ccm": "Commande Client Magasin",
+  "ccw": "Commande Client Web",
+  "mfc": "Modifier la fiche client",
+  "res": "Contrôle des types de moyens de paiements sur un retour espèce",
+  "rcb": "Contrôle des types de moyens de paiements sur un retour CB",
+  "rpf": "Contrôle des types de moyens de paiements sur un retour Paiement fractionné",
+  "rst": "Contrôle des menu retours",
+  "cce": "Cumul CB et Espèces",
+  "rfj": "Rééditer facture jour J",
+  "ccv": "Cumul commande et vente",
+  "ccr": "Cumul commande et retour",
+  "cvr": "Cumul vente et retour",
+  "cap": "Capency",
+  "tfd": "Gestion des tickets sur les consignes",
+  "tnr": "TNR"
+}

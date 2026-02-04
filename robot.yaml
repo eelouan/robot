@@ -1,0 +1,62 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-robotyaml
+
+tasks:
+  create_order:
+    shell: python -m robocorp.tasks run main.py --task "create_order"
+  check_label:
+    shell: python -m robocorp.tasks run main.py --task "check_label"
+  cap:
+    shell: python -m robocorp.tasks run main.py --task "cap"
+  seller_mode:
+    shell: python -m robocorp.tasks run main.py --task "seller_mode"
+  cvr:
+    shell: python -m robocorp.tasks run main.py --task "cvr"
+  ccv:
+    shell: python -m robocorp.tasks run main.py --task "ccv"
+  ccr:
+    shell: python -m robocorp.tasks run main.py --task "ccr"
+  tfd:
+    shell: python -m robocorp.tasks run main.py --task "tfd"
+  rfj:
+    shell: python -m robocorp.tasks run main.py --task "rfj"
+  cce:
+    shell: python -m robocorp.tasks run main.py --task "cce"
+  rst:
+    shell: python -m robocorp.tasks run main.py --task "rst"
+  rpf:
+    shell: python -m robocorp.tasks run main.py --task "rpf"
+  rcb:
+    shell: python -m robocorp.tasks run main.py --task "rcb"
+  res:
+    shell: python -m robocorp.tasks run main.py --task "res"
+  mfc:
+    shell: python -m robocorp.tasks run main.py --task "mfc"
+  ccw:
+    shell: python -m robocorp.tasks run main.py --task "ccw"
+  ccm:
+    shell: python -m robocorp.tasks run main.py --task "ccm"
+  brb:
+    shell: python -m robocorp.tasks run main.py --task "brb"
+  tnr:
+    shell: python -m robocorp.tasks run main.py --task "tnr"
+
+environmentConfigs:
+  - environment_windows_amd64_freeze.yaml
+  - environment_linux_amd64_freeze.yaml
+  - environment_darwin_amd64_freeze.yaml
+  - conda.yaml
+
+pip:
+  - robotframework-browser==14.1.0
+  - rpaframework-core==12.0.1
+  # - rpaframework-recognition==6.0.0
+
+artifactsDir: output
+
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore

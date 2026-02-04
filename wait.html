@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test en cour</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #111;
+        }
+        .blink {
+            font-size: 3rem;
+            font-family: Arial, sans-serif;
+            animation: blinkColors 1s infinite;
+        }
+        @keyframes blinkColors {
+            0%   { color: red; }
+            25%  { color: yellow; }
+            50%  { color: green; }
+            75%  { color: blue; }
+            100% { color: purple; }
+        }
+    </style>
+</head>
+<body>
+    <div class="blink">Testing in progress<br>🔒🔒🔒🔒🔒🔒🔒<br>👀👀👀👀👀👀</div>
+</body>
+</html>
